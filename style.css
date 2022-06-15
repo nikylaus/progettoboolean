@@ -1,0 +1,85 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: 'Anek Malayalam', sans-serif;
+}
+
+.sfondo_trasparente{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1700px;
+  height: 1150px;
+  margin: auto;
+  border-radius: 13px;
+}
+.container_logo{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+.logo{
+  width: 40%;
+  padding-top: 100px;
+}
+
+.logo_text{
+  font-size: 30px;
+  color: rgb(0, 225, 0);
+  font-weight: bold;
+}
+
+nav{
+  width: 1300px;
+  height: 23px;
+  background-color: rgb(0, 225, 0);
+  text-align: center;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.pulsante{
+  height: 120%;
+}
+
+.elemento{
+  color: white;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.monopattino_name{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.indirizzo{
+  font-size: 18px;
+}
+
+.indirizzo::before{
+  content: "\2192"
+}
+
+.stato_carica{
+  font-size: 18px;
+}
+
+.monopattino1 .percentuale_carica{
+  background-color: rgb(235,165,0);
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.monopattino2 .percentuale_carica{
+  background-color: rgb(0,235,0);
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.monopattino3 .percentuale_carica{
+  background-color: rgb(200,20,0);
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+}
